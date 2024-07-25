@@ -1,0 +1,55 @@
+body{
+    background-color: aliceblue;
+}
+
+input{
+    background: transparent !important;
+    border: 1px solid blue !important;
+}
+
+.mar{
+    display: flex;
+    padding: 20px;
+    width: 30em;
+    margin: auto;
+    margin-bottom: -100px;
+    /* position: absolute; */
+    /* margin-left: 100px !important; */
+}
+
+#signupForm{
+    width: 30em !important;
+}
+
+#loginForm{
+    display: none;
+    height: 23em;
+    width: 30em !important;
+    margin: 1.5em 0 0 0;
+}
+
+.font{
+    margin: 10px 0 0 0;
+}
+
+.font i{
+    font-size: 30px;
+}
+
+.divider {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+   
+}
+
+.divider::before,
+.divider::after {
+    flex: 0.3;
+    content: '';
+    padding: 0.1px;
+    background-color: blue;
+    margin: 15px;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="chat.css">
+  <link rel="shortcut icon" href="chatIcon.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-firestore-compat.js"></script>
+  <title>Let's Chat</title>
+</head>
+
+<body>
+  <!-- <div>
+    <button class="btn-danger btn" onclick="logout()">Log out</button>
+  </div> -->
+  <main>
+    <!-- <p>Welcome to Emmanuel's chatting App</p> -->
+    <!-- <div>
+      <a href="edit.html">Edit Profile</a>
+    </div> -->
+    <div id="main">
+      <div id="lockScreen1">
+        <div class="d-flex justify-content-between" id="flex">
+          <div id="network">
+            <h6>MTN</h6>
+          </div>
+          <div id="sub-div">
+            <div class="d-flex justify-content-between" id="circle">
+              <div id="circle1">
+
+              </div>
+              <div id="oval">
+
+              </div>
+              <div id="circle1">
+
+              </div>
+            </div>
+          </div>
+          <div id="icon">
+            <i class="fa-solid fa-wifi" id="icons"></i>
+            <a><i class="fa-solid fa-signal" id="icon1"></i></a>
+            <a><i class="fa-solid fa-battery-full" id="icon2"></i></a>
+          </div>
+        </div>
+
+        <div id="profile">
+          <div class="d-flex justify-content-between">
+            <div class="d-flex" id="aligned">
+              <div id="back" class="fs-2">
+                <i class="fa-solid fa-angle-left"></i>
+              </div>
+              <div id="dp">
+                <img id="profileImg" src="chatIcon.png" alt="">
+                <!-- <img id="profileImg"  alt=""> -->
+                <i><span id="userEmail"> </span></i>
+              </div>
+            </div>
+            <div id="vCall" class="fs-5">
+              <a><i class="fa-solid fa-phone"></i></a>
+              <a><i class="fa-solid fa-video"></i></a>
+              <button onclick="show()" id="drop"><i class="fa-solid fa-ellipsis-vertical"></i>
+                <div id="down">
+                  <div id="div"><p><a href="#" id="logOut" onclick="logout()">Log out</a></p></div>
+                  <div id="diva"><p><a href="edit.html">Edit Profile</a></p></div>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div id="">
+          <h5 class="text-center">Let's Chat</h5>
+        </div>
+        <div>
+          <ul id="dispMessages">
+
+          </ul>
+        </div>
+        <div id="inputs">
+          <input type="text" id="chatMeaasge">
+          <button id="send" onclick="sendMessage(event)"><i class="fa-solid fa-paper-plane"></i></button>
+        </div>
+      </div>
+    </div>
+    </div>
+  </main>
+</body>
+
+</html>
+<script src="chat.js"></script>
+<script src="https://kit.fontawesome.com/6f0fae15cd.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

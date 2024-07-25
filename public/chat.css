@@ -1,0 +1,240 @@
+#main {
+    height: 35em;
+    width: 19em;
+    background-size: cover;
+    border: 4px solid black;
+    /* background-color: black; */
+    background-image: url(chatbg.jpeg);
+    margin-inline: auto;
+    margin-block: 10px;
+    border-radius: 25px;
+    padding: 0 5px 5px 5px;
+    filter: drop-shadow(0 0 0.7rem black);
+}
+
+.mess{
+    width: fit-content;
+    padding: 3px;
+    height: fit-content;
+    border-radius: 4px;
+    background-color: rgb(108,149,62);
+    position: relative;
+    margin-top: 10px;
+}
+
+.ava{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    left: -30px;
+    top: 0;
+    position: absolute;
+}
+
+.ttime{
+    font-size: 10px;
+    text-align: left;
+    color: rgb(205, 203, 203);
+}
+
+#flex{
+    height: 40px;
+    width: 100%;
+    padding: 0 10px !important;
+    /* background-color:chartreuse !important; */
+    position: sticky;
+    z-index: 3;
+    top: 0;
+    border-radius: 15px 15px 0 0;
+}
+
+#network{
+    padding: 4px 0 0 0;
+    width: 57px;
+}
+
+#sub-div{
+    padding: 0 6px;
+    height: 1.7em;
+    width: 8em;
+    background-color: black;
+    border-radius: 0 0 15px 15px;
+}
+
+#circle{
+    padding: 4px 0 0 0;
+}
+
+#circle1{
+    height: 15px;
+    width: 15px;
+    background-color: rgba(100, 100, 100, 0.436);
+    border-radius: 50%;
+}
+
+#oval{
+    height: 15px;
+    width: 60px;
+    background-color: rgba(100, 100, 100, 0.436);
+    border-radius: 10px;
+}
+
+#icon{
+    width: 72px !important;
+    /* background-color: red; */
+}
+
+#icon i{
+    font-size: 14px;
+    padding: 0 0 0 4px;
+}
+
+
+#profile{
+    height: 45px;
+    width: 100%;
+    align-items: center !important;
+    background-color: transparent;
+}
+
+#aligned{
+    align-items: center;
+    gap: 15px ;
+}
+
+#back{
+    color: rgb(108,149,62);
+}
+
+#dp{
+    font-size: 15px;
+}
+
+#dp img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+#vCall{
+    color: rgb(108,149,62);
+}
+
+#vCall i{
+    padding-left: 2px;
+}
+
+#drop{
+    position: relative;
+    /* cursor: pointer; */
+    background: transparent;
+    border: none;
+    color: rgb(108,149,62);
+}
+
+#down{
+    position: absolute;
+    height: 90px;
+    width: 150px;
+    /* background-color: rgb(108,149,62); */
+    background-color: white;
+    right: 0;
+    z-index: 3;
+    padding: 10px;
+    font-size: 18px;
+    text-align: left;
+    border-radius: 5px;
+    color: rgb(108,149,62) !important;
+    display: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+}
+
+#div a{
+    text-decoration: none;
+    /* color: rgb(108,149,62); */
+}
+
+#diva a{
+    text-decoration: none;
+    /* color: rgb(108,149,62); */
+}
+
+#div,
+#diva{
+    height: 30px;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    margin: 0 0 7px 0;
+    padding: 0 0 0 6px;
+}
+
+#div:hover{
+    background-color: rgb(108,149,62);
+    color: white !important; 
+}
+
+#diva:hover{
+    background-color: rgb(108,149,62);
+    color: white !important; 
+}
+
+#div:hover a{
+    background-color: rgb(108,149,62);
+    color: red !important; 
+}
+
+#diva:hover a{
+    background-color: rgb(108,149,62);
+    color: white !important; 
+}
+
+#dispMessages{
+    height: 22em;
+    width: 100%;
+    /* background-color: wheat; */
+    overflow-y: scroll;
+}
+
+#dispMessages::-webkit-scrollbar{
+    display: none;
+}
+
+#inputs{
+    height: 30px;
+    width: 100%;
+    /* border: 1px solid black; */
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#chatMeaasge{
+    border-radius: 20px;
+    padding: 0 0 0 10px;
+    border: 1px solid rgb(108,149,62);
+    background: rgba(227, 234, 220, 0.489);
+}
+
+#chatMeaasge:focus{
+    outline: 1.3px solid rgb(108,149,62);
+}
+
+#send{
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: rgb(108,149,62);
+    color: white;
+    border-radius: 50%;
+    /* padding: 10px; */
+}
+
+#send:focus{
+    color: rgb(108,149,62);
+    background-color: white;
+}
+
